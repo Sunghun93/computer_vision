@@ -15,6 +15,8 @@ from torchsummary import summary
 
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 
+# https://www.kaggle.com/datasets/mahdinavaei/cat-and-dog-classifier?resource=download
+
 img = Image.open(os.path.join(BASE_PATH, "data/Cat/1200px-Cat03.jpg"))
 # img.show()
 
